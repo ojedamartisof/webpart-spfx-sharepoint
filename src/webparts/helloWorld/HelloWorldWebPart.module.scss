@@ -1,0 +1,31 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.helloWorld {
+  .container {
+    background-color:#2a2d35;
+    max-width: 700px;
+  }
+
+  .row {
+    text-align: left;
+    @include ms-Grid-row;
+    @include ms-fontColor-white;
+  }
+
+  .title {
+    @include ms-fontColor-white;
+  }
+
+  .subTitle {
+    margin-left: 20px;
+    text-align: left;
+    @include ms-fontColor-white;
+  }
+
+  .description {
+    margin-right: 15px;
+    text-align: right;
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+}
